@@ -1,0 +1,1 @@
+https://cbr.ru/banking_sector/credit/FullCoList/

@@ -1,0 +1,28 @@
+{
+  "name": "co_loader",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "tsc-watch": "tsc -watch"
+  },
+  "author": "Fedor Gusarov",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^2.6.7",
+    "node-xlsx": "^0.21.0",
+    "pg": "^8.2.1",
+    "pg-copy-streams": "^5.1.0",
+    "tslib": "^2.4.1",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.31",
+    "@types/node": "^18.11.9",
+    "@types/node-fetch": "^2.6.2",
+    "@types/pg": "^7.14.3",
+    "@types/pg-copy-streams": "^1.2.1"
+  }
+}
