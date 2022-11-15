@@ -8,11 +8,11 @@ export interface CreditOrganisation {
   cnamer: string // Полное фирменное наименование
   oldcopf: string // Организационно-правовая форма
   newcopf: string // Организационно-правовая форма (новое значение)
-  
+
   // Регистрационный номер
-  cregnum: number 
-  oldcregnr: string 
-  newcregnr: string | null 
+  cregnum: number
+  oldcregnr: string
+  newcregnr: string | null
 
   cdreg: string // Дата регистрации ЦБ
   lic: string | null // Статус лицензии
